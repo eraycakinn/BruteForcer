@@ -563,7 +563,7 @@ fi
 
 			done < "$1"
 		#NMAP PARSER
-		./ultimate-nmap-parser.sh Outputs/Scans/nmap_result.gnmap --summary
+		./Parser/ultimate-nmap-parser.sh Outputs/Scans/nmap_result.gnmap --summary
 		cat summary.txt > Outputs/Scans/nmap_result
 		rm Outputs/Scans/nmap_result.gnmap
 		rm summary.txt
@@ -579,7 +579,7 @@ fi
 	bruteforce $1 $2
 	#-----------
 	#NMAP PARSER
-	./ultimate-nmap-parser.sh Outputs/Scans/nmap_result.gnmap --summary
+	./Parser/ultimate-nmap-parser.sh Outputs/Scans/nmap_result.gnmap --summary
 	cat summary.txt > Outputs/Scans/nmap_result
 	rm Outputs/Scans/nmap_result.gnmap
 	rm summary.txt
