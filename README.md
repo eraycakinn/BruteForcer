@@ -3,7 +3,7 @@ You can do automatically Brute Force attacks with this script. I designed it for
 
 <b>Just Run and Wait For Results.</b>
 ## Installation
-Clone the git and you pretty much ready to roll
+Clone the git and run.
 
 ```
 git clone https://github.com/eraycakinn/BruteForcer.git
