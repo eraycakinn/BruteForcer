@@ -19,10 +19,12 @@ sudo ./BruteForcer.sh <target> or <targets_file>
 When script finished, You will get Outputs Files. All Results in there.
 
 ## Features
--- Live Hosts in ALL network (Nmap)<br>
--- Open Ports in ALL network (Nmap)<br>
--- Brute Force Attacks to Popular ports (Nmap Output Open Ports)<br>
-(If port is close for scanning host, script won't do brute force attack.) <b>**Time is Important :)</b>
+<ul>
+  <li>Live Hosts in ALL network </li>
+  <li>Open Ports in ALL network </li>
+  <li>Brute Force Attacks to Popular ports </li>
+</ul>
+If port is close for scanning host, it will not do brute force attack. <br><strong>**Time is Important :)</strong>
 
 ## Which results can you get ? 
 ### Outputs File Hierarchy
@@ -39,7 +41,7 @@ When script finished, You will get Outputs Files. All Results in there.
   </ul>
   </li>
 </ul>
-<strong>Note: </strong>If Brute Force Attack fails for any port, Result file will not save. It's more readable. Right.
+<strong>Note: </strong>If Brute Force Attack fails for any port(any credential information), Result file will not save. I think it is more readable like that.
 
 ### Output Demo
 ![Demo](Demo/output.gif)
