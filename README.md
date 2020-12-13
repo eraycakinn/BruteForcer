@@ -1,5 +1,5 @@
 # BruteForcer
-You can do brute force attacks automatically with this script. 
+You can do automatically Brute Force attacks with this script. I designed it for internal network for now. But there will be new versions as soon possible.
 
 <b>Just Run and Wait For Results.</b>
 ## Installation
@@ -9,10 +9,11 @@ Clone the git and you pretty much ready to roll
 git clone https://github.com/eraycakinn/BruteForcer.git
 cd BruteForcer/
 sudo chmod +x BruteForcer.sh Parser/ultimate-nmap-parser.sh
-sudo ./BruteForcer.sh <target> or <targets_file>
 ```
 ## How to Run
-
+```
+sudo ./BruteForcer.sh <target> or <targets_file>
+```
 ![Demo](Demo/run.gif)
 
 When script finished, You will get Outputs Files. All Results in there.
@@ -37,8 +38,8 @@ When script finished, You will get Outputs Files. All Results in there.
     <li>(protocol-name)_result.txt</li>
   </ul>
   </li>
-</ul> 
-Note: If Brute Force Attack fails for any port, Result file will not save. It's more readable. Right.<br>
+</ul>
+<strong>Note: </strong>If Brute Force Attack fails for any port, Result file will not save. It's more readable. Right.
 
 ### Output Demo
 ![Demo](Demo/output.gif)
