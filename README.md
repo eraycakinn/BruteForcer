@@ -1,9 +1,11 @@
 # BruteForcer
 ![Demo](Demo/usage.png)
-
-You can do automatically Brute Force attacks with this script. I designed it for internal network for now. But it will be new versions as soon possible.
-
 <pre><b>Just Run and Wait For Results.</b></pre>
+<ul>
+  <li>You can do automatically Brute Force attacks with this script.</li>
+  <li>I designed it for internal network for now.</li>
+  <li>But it will be new versions as soon possible.</li>
+</ul>
 
 ## Installation
 Clone the git and run.
