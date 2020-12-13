@@ -29,7 +29,7 @@ When script finished, You will get Outputs Files. All Results in there.
   <li>Open Ports in ALL network </li>
   <li>Brute Force Attacks to Popular ports </li>
 </ul>
-Script won't do brute force attack for closed ports. <strong>**Time is Important** :)</strong>
+Script won't do brute force attack for closed ports. *Time is Important*
 
 ## Which results can you get ? 
 ### Outputs File Hierarchy
