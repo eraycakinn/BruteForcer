@@ -1,27 +1,30 @@
 # BruteForcer
-You can do brute force attacks automatically with this script. 
+You can do automatically Brute Force attacks with this script. I designed it for internal network for now. But it will be new versions as soon possible.
 
 <b>Just Run and Wait For Results.</b>
 ## Installation
-Clone the git and you pretty much ready to roll
+Clone the git and run.
 
 ```
 git clone https://github.com/eraycakinn/BruteForcer.git
 cd BruteForcer/
 sudo chmod +x BruteForcer.sh Parser/ultimate-nmap-parser.sh
+```
+## How to Run ?
+```
 sudo ./BruteForcer.sh <target> or <targets_file>
 ```
-## How to Run
-
 ![Demo](Demo/run.gif)
 
 When script finished, You will get Outputs Files. All Results in there.
 
 ## Features
--- Live Hosts in ALL network (Nmap)<br>
--- Open Ports in ALL network (Nmap)<br>
--- Brute Force Attacks to Popular ports (Nmap Output Open Ports)<br>
-(If port is close for scanning host, script won't do brute force attack.) <b>**Time is Important :)</b>
+<ul>
+  <li>Live Hosts in ALL network </li>
+  <li>Open Ports in ALL network </li>
+  <li>Brute Force Attacks to Popular ports </li>
+</ul>
+Script won't do brute force attack for closed ports. <strong>**Time is Important** :)</strong>
 
 ## Which results can you get ? 
 ### Outputs File Hierarchy
@@ -37,8 +40,13 @@ When script finished, You will get Outputs Files. All Results in there.
     <li>(protocol-name)_result.txt</li>
   </ul>
   </li>
-</ul> 
-Note: If Brute Force Attack fails for any port, Result file will not save. It's more readable. Right.<br>
+</ul>
+<strong>Note: </strong>If Brute Force Attack fails for any port(any credential information), Result file will not save. I think it is more readable like that.<br>
+
+<pre><strong>***Important***</strong><br>Output Results are refreshing after every run the script.<br>So if you want to save old results,<br>Don't forget to save <b>Outputs/</b> file before again run the script.</pre>
 
 ### Output Demo
 ![Demo](Demo/output.gif)
+
+### References
+https://github.com/MS-WEB-BN/t14m4t/
