@@ -24,7 +24,7 @@ When script finished, You will get Outputs Files. All Results in there.
   <li>Open Ports in ALL network </li>
   <li>Brute Force Attacks to Popular ports </li>
 </ul>
-If port is close for scanning host, it will not do brute force attack. <br><strong>**Time is Important :)</strong>
+Script will not do brute force attack for closed ports. <strong>**Time is Important** :)</strong>
 
 ## Which results can you get ? 
 ### Outputs File Hierarchy
