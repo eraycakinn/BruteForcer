@@ -10,7 +10,7 @@ git clone https://github.com/eraycakinn/BruteForcer.git
 cd BruteForcer/
 sudo chmod +x BruteForcer.sh Parser/ultimate-nmap-parser.sh
 ```
-## How to Run
+## How to Run ?
 ```
 sudo ./BruteForcer.sh <target> or <targets_file>
 ```
