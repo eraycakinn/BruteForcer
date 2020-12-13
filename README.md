@@ -43,7 +43,7 @@ Script won't do brute force attack for closed ports. <strong>**Time is Important
 </ul>
 <strong>Note: </strong>If Brute Force Attack fails for any port(any credential information), Result file will not save. I think it is more readable like that.<br>
 
-<strong>***Important***</strong> Output Results are refreshing after every run the script. So if you want to save old results, Don't forget to save <b>Outputs/</b> file before again run the script.
+<pre><strong>***Important:***</strong> Output Results are refreshing after every run the script. So if you want to save old results, <br>Don't forget to save <b>Outputs/</b> file before again run the script.</pre>
 
 ### Output Demo
 ![Demo](Demo/output.gif)
