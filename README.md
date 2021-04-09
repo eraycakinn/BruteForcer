@@ -30,7 +30,7 @@ When script finished, You will get Outputs Files. All Results in there.
   <li>Brute Force Attacks to Popular ports </li>
 </ul>
 
-### It doesn't work for subnet IPs.
+**It doesn't work for subnet IPs.
 
 Script won't do brute force attack for closed ports _**Time is important ;)**_
 
